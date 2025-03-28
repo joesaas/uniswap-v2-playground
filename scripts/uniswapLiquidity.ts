@@ -87,30 +87,6 @@ const p = new Table();
     );
     await addRow(3, "Remove Liquidity");
 
-    // const pairAddress = await factory.getPair(await tokenA.getAddress(), await tokenB.getAddress());
-    // expect(pairAddress).to.not.equal(ethers.ZeroAddress);
-    // const pair = await ethers.getContractAt("UniswapV2Pair", pairAddress);
-    // const liquidityBal ance = await pair.balanceOf(owner.address);
-
-    // expect(liquidityBalance).to.be.gt(0);
-
-    // await pair.approve(await router.getAddress(), liquidityBalance);
-
-    // await router.removeLiquidity(
-    //     await tokenA.getAddress(),
-    //     await tokenB.getAddress(),
-    //     liquidityBalance,
-    //     0,
-    //     0,
-    //     owner.address,
-    //     deadline
-    // );
-
-    // const liquidityBalanceAfter = await pair.balanceOf(owner.address);
-    // expect(liquidityBalanceAfter).to.equal(0);
-
-    //print
     p.printTable();
-
 
 })();
