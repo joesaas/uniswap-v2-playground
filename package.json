@@ -1,0 +1,29 @@
+{
+  "name": "uniswap-v2-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@types/node": "^22.13.13",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "@uniswap/lib": "4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "1.1.0-beta.0",
+    "console-table-printer": "^2.12.1",
+    "ethers": "^6.13.5"
+  }
+}
